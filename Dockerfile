@@ -1,6 +1,6 @@
 FROM node:latest
 RUN mkdir /data
-COPY . /data
+COPY src/nodejs-hello-world /data
 WORKDIR /data
 RUN ls -ltr
 EXPOSE 3000
